@@ -9,6 +9,7 @@
     { "path": "notification-service" },
     { "path": "user-service" },
     { "path": "ai-service" },
+    { "path": "frontend" },
     { "path": "auth-lib-java" },
     { "path": "auth-lib-python" },
     { "path": "shared-workflows" },

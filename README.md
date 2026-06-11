@@ -30,6 +30,7 @@ DLS-2 is a distributed food delivery platform built as a microservice architectu
 | notification-service | Python / FastAPI | Real-time notifications via WebSocket |
 | user-service | Python / FastAPI | User profiles, GraphQL API |
 | ai-service | Python / FastAPI | AI-powered courier scoring and ETA |
+| frontend | TBD | Customer-facing web application (REST + GraphQL) |
 
 ### Shared Libraries and Infrastructure
 

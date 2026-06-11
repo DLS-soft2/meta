@@ -11,6 +11,7 @@ REPOS=(
   notification-service
   user-service
   ai-service
+  frontend
   auth-lib-java
   auth-lib-python
   shared-workflows
