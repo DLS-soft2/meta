@@ -1,0 +1,19 @@
+{
+  "folders": [
+    { "name": "meta (root)", "path": "." },
+    { "path": "api-gateway" },
+    { "path": "order-service" },
+    { "path": "payment-service" },
+    { "path": "restaurant-service" },
+    { "path": "courier-service" },
+    { "path": "notification-service" },
+    { "path": "user-service" },
+    { "path": "ai-service" },
+    { "path": "auth-lib-java" },
+    { "path": "auth-lib-python" },
+    { "path": "shared-workflows" },
+    { "path": "docs" },
+    { "path": "infra" }
+  ],
+  "settings": {}
+}

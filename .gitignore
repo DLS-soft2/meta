@@ -1,0 +1,13 @@
+api-gateway/
+order-service/
+payment-service/
+restaurant-service/
+courier-service/
+notification-service/
+user-service/
+ai-service/
+auth-lib-java/
+auth-lib-python/
+shared-workflows/
+infra/
+docs/
