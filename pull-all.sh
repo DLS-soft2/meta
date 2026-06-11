@@ -40,7 +40,7 @@ FAILURES=()
 
 for repo in "${REPOS[@]}"; do
   if [[ "${RESULTS[$repo]:-}" == "SKIPPED"* ]]; then
-    ((SKIP++))
+    ((SKIP++)) || true
     continue
   fi
 done
@@ -50,10 +50,10 @@ for entry in "${PIDS[@]}"; do
   repo="${entry#*:}"
   if wait "$pid"; then
     RESULTS[$repo]="ok"
-    ((PASS++))
+    ((PASS++)) || true
   else
     RESULTS[$repo]="FAILED"
-    ((FAIL++))
+    ((FAIL++)) || true
     FAILURES+=("$repo")
   fi
 done
